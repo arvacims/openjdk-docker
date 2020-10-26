@@ -1,4 +1,4 @@
-FROM openjdk:11.0.6-jre-slim
+FROM openjdk:8u265-jre-slim
 
 RUN apt-get update \
     && apt-get --yes --no-install-recommends install curl wget \
