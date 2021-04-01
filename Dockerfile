@@ -1,4 +1,4 @@
-FROM openjdk:11.0.10-jre-slim
+FROM openjdk:11.0.10-jre
 
 RUN apt-get update \
     && apt-get --yes --no-install-recommends install curl wget \
